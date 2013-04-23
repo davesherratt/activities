@@ -1,5 +1,11 @@
 require "activities/version"
 
 module Activities
-  # Your code goes here...
+  
+	def self.track_activities(*actions)
+		actions.each do |action|
+			
+		end
+	end
+
 end
