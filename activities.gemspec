@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dave@davesherratt.com"]
   spec.description   = %q{Activity tracker}
   spec.summary       = %q{Adds the ability to track user activities}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/davesherratt/activities"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
