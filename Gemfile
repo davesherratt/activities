@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in activities.gemspec
-gemspec
-gem 'rspec'
+#gem "rails", '~> 4.0.0.beta'
 gem 'activerecord'
-gem 'sqlite3'
+gem 'sqlite3'#, :github => 'luislavena/sqlite3-ruby'
+gem "rspec"
+gem "rspec-rails", "~> 2.0"
+
+gemspec
