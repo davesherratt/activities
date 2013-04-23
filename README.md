@@ -1,6 +1,6 @@
 # Activities
 
-TODO: Write a gem description
+Ability to track actions performed by a user
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include in header
 
 ## Contributing
 

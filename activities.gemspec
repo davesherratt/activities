@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "activities"
   spec.version       = Activities::VERSION
   spec.authors       = ["Dave Sherratt"]
-  spec.email         = ["dave.sherratt@ecrebo.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["dave@davesherratt.com"]
+  spec.description   = %q{Activity tracker}
+  spec.summary       = %q{Adds the ability to track user activities}
   spec.homepage      = ""
   spec.license       = "MIT"
 
