@@ -9,10 +9,12 @@ describe PostsController, type: :controller do
 
   describe '#create' do
 
-    it 'has @post' do
+    def create_post
       post :create
+    end
 
-      should change(Post,:count).by(1)
+    it 'should add a post' do
+      lambda{create_post}.should change(Post,:count).by(+1)
     end
 
   end

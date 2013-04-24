@@ -9,7 +9,7 @@ class PostsController < TestController
   def create
   	p = Post.new(:title => 'Test Title', :content => 'Test Content')
   	puts p.to_yaml
-  	#p.save
+  	p.save
     render nothing: true
   end
 end
