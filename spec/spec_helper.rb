@@ -1,2 +1,2 @@
-require 'test-controller'
+require 'activities'
 require 'pry'

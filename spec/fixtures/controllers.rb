@@ -5,5 +5,11 @@ class TestController < ActionController::Base
 end
 
 class PostsController < TestController
-  restful_controller
+  #activities
+  def create
+  	p = Post.new(:title => 'Test Title', :content => 'Test Content')
+  	puts p.to_yaml
+  	#p.save
+    render nothing: true
+  end
 end
