@@ -5,6 +5,7 @@ ActiveRecord::Schema.define(:version => 1) do
     t.string :ip
     t.string :message
     t.string :changes
+    t.string :params
     t.string :model
     t.string :controller
     t.string :action
