@@ -1,7 +1,6 @@
 require 'active_support/all'
 require 'action_controller'
 require 'action_dispatch'
-require 'active_record'
 
 module Rails
   class App
@@ -10,7 +9,9 @@ module Rails
       return @routes if defined?(@routes)
       @routes = ActionDispatch::Routing::RouteSet.new
       @routes.draw do
-        resources :posts
+        #resources :posts
+        post 'posts/create' => 'posts#create'
+        get 'posts/index' => 'posts#index'
       end
       @routes
     end
